@@ -1,18 +1,20 @@
-import React, { useState } from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
-import { Link } from "react-router-dom";
-import { ImBlog } from "react-icons/im";
+import React, { useState } from 'react';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
+import { Link } from 'react-router-dom';
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
-} from "react-icons/ai";
+} from 'react-icons/ai';
 
-import { MdDeveloperMode } from "react-icons/md";
-
-import { CgFileDocument } from "react-icons/cg";
+import {
+  BRAND,
+  HOME_NAV,
+  ABOUT_NAV,
+  IMAGES_NAV,
+} from '../config/homePage/navbar';
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -26,77 +28,55 @@ function NavBar() {
     }
   }
 
-  window.addEventListener("scroll", scrollHandler);
+  window.addEventListener('scroll', scrollHandler);
 
   return (
     <Navbar
       expanded={expand}
-      fixed="top"
-      expand="md"
-      className={navColour ? "sticky" : "navbar"}
+      fixed='top'
+      expand='md'
+      className={navColour ? 'sticky' : 'navbar'}
     >
       <Container>
-        <Navbar.Brand href="http://www.logicstime.com/" target="_blank">
-          <MdDeveloperMode style={{ marginBottom: "2px" }} /> Logicstime.com
-        </Navbar.Brand>
+        <Navbar.Brand>{BRAND}</Navbar.Brand>
         <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
+          aria-controls='responsive-navbar-nav'
           onClick={() => {
-            updateExpanded(expand ? false : "expanded");
+            updateExpanded(expand ? false : 'expanded');
           }}
         >
           <span></span>
           <span></span>
           <span></span>
         </Navbar.Toggle>
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto" defaultActiveKey="#home">
+        <Navbar.Collapse id='responsive-navbar-nav'>
+          <Nav className='ml-auto' defaultActiveKey='#home'>
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+              <Nav.Link as={Link} to='/' onClick={() => updateExpanded(false)}>
+                <AiOutlineHome style={{ marginBottom: '2px' }} /> {HOME_NAV}
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to='/about'
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser style={{ marginBottom: '2px' }} /> {ABOUT_NAV}
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to='/project'
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                href="http://www.logicstime.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                  style={{ marginBottom: '2px' }}
+                />{' '}
+                {IMAGES_NAV}
               </Nav.Link>
             </Nav.Item>
           </Nav>

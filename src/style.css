@@ -152,6 +152,7 @@ html {
 }
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
+  margin-left: 1em;
 }
 
 .logo {
@@ -161,8 +162,8 @@ html {
 
 .navbar-nav .nav-link {
   color: white !important;
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
 }
 
 .nav-link {
@@ -266,7 +267,7 @@ html {
 .home-content {
   padding: 3rem 0 0rem !important;
   color: #414141;
-  text-align: left;
+  text-align: right;
 }
 
 .heading-description {

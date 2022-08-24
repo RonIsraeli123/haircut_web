@@ -1,16 +1,13 @@
-import React from "react";
-import Typewriter from "typewriter-effect";
+import React from 'react';
+import Typewriter from 'typewriter-effect';
+
+import { TYPEING } from '../../config/homePage/typeWriter';
 
 function TypeWriter() {
   return (
     <Typewriter
       options={{
-        strings: [
-          "Front End Developer",
-          "Back End Developer",
-          "Software Engineer",
-          "Open Source Contributor",
-        ],
+        strings: TYPEING,
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
