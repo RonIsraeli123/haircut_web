@@ -766,10 +766,11 @@ html {
 
 @media (max-width: 767px) {
   .profile-pic {
+    margin-right: 4em;
     border-radius: 50%;
     height: 80%;
     width: 50%;
-    margin-top: 12%;
+    margin-top: 20%;
     margin-left: 25%;
   }
 }
