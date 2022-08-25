@@ -1,4 +1,4 @@
-import ANT from './Assets/Projects/ant.jpg';
+import ANT from '../../Assets/Projects/ant.jpg';
 
 export const PROJECTS = [
   {

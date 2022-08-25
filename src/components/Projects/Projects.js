@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
-import { PROJECTS } from '../../Constants';
+import { PROJECTS } from '../../config/projectsPage/constants';
 
-import { TITLE } from '../../config/projects/project';
+import { TITLE } from '../../config/projectsPage/project';
 
 function Projects() {
   return (

@@ -41,7 +41,7 @@ html {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #212038d8 !important;
+  background-color: rgb(0, 180, 114) !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -52,7 +52,7 @@ html {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
-  background-color: #343e47;
+  background-color: rgb(0, 180, 114);
 }
 
 .navbar-toggler {
@@ -332,7 +332,7 @@ html {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: #343e47 !important;
+  background: #04AA6D !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
   border: 1px solid #343e47;
@@ -381,7 +381,7 @@ html {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: #343e47;
+  background-color: rgb(0, 180, 114);
   bottom: 0 !important;
 }
 .footer-copywright {
