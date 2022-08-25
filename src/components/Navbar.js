@@ -3,17 +3,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
-import {
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-} from 'react-icons/ai';
+import { AiOutlineHome, AiFillBug, AiOutlineUser } from 'react-icons/ai';
 
 import {
   BRAND,
   HOME_NAV,
   ABOUT_NAV,
-  IMAGES_NAV,
+  WORK_NAV,
 } from '../config/homePage/navbar';
 
 function NavBar() {
@@ -38,7 +34,9 @@ function NavBar() {
       className={navColour ? 'sticky' : 'navbar'}
     >
       <Container>
-        <Navbar.Brand>{BRAND}</Navbar.Brand>
+        <Navbar.Brand>
+          <strong>{BRAND}</strong>
+        </Navbar.Brand>
         <Navbar.Toggle
           aria-controls='responsive-navbar-nav'
           onClick={() => {
@@ -73,10 +71,7 @@ function NavBar() {
                 to='/project'
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: '2px' }}
-                />{' '}
-                {IMAGES_NAV}
+                <AiFillBug style={{ marginBottom: '2px' }} /> {WORK_NAV}
               </Nav.Link>
             </Nav.Item>
           </Nav>

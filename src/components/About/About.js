@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Aboutcard from './AboutCard';
-import developer from '../../Assets/developer.jpg';
+import Man from '../../Assets/man.jpeg';
 import { HEADER } from '../../config/aboutPage/about';
 
 function About() {
@@ -23,7 +23,7 @@ function About() {
             <Aboutcard />
           </Col>
           <Col md={5} style={{ paddingBottom: '50px' }} className='about-img'>
-            <img src={developer} alt='about' className='image-style' />
+            <img src={Man} alt='about' className='image-style' />
           </Col>
         </Row>
         <Row></Row>
