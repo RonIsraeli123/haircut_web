@@ -766,7 +766,7 @@ html {
 
 @media (max-width: 767px) {
   .profile-pic {
-    margin-right: 4em;
+    margin-right: 25%;
     border-radius: 50%;
     height: 80%;
     width: 50%;
