@@ -4,13 +4,12 @@ import myImg from '../../Assets/home1.jpg';
 import SocialMedia from '../SocialMedia';
 import TypeWriter from './TypeWriter';
 
+import { TITLE, SUMTITLE, PARAGRAPH } from '../../config/homePage/main';
+
 import {
-  TITLE,
-  SUMTITLE,
-  PARAGRAPH,
   CONTACT_HEADER,
   CONTACT_PARAGRAPH,
-} from '../../config/homePage/home';
+} from '../../config/homePage/contact';
 
 function Home() {
   return (

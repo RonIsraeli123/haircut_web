@@ -250,6 +250,11 @@ html {
   padding-left: 20px !important;
 }
 
+.aboutContent{
+  text-align: right;
+  padding: 0 !important;
+}
+
 .heading-name {
   font-size: 2.5em !important;
   padding-left: 20px !important;

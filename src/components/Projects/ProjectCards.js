@@ -10,6 +10,7 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: 'justify' }}>
           {props.description}
         </Card.Text>
+        <Card.Footer>{props.price}</Card.Footer>
       </Card.Body>
     </Card>
   );

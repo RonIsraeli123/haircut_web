@@ -17,6 +17,7 @@ function Projects() {
                 imgPath={project.image}
                 title={project.name}
                 description={project.description}
+                price={project.price}
               />
             </Col>
           ))}
