@@ -3,13 +3,15 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
-import { AiOutlineHome, AiFillBug, AiOutlineUser } from 'react-icons/ai';
 
 import {
   BRAND,
   HOME_NAV,
   ABOUT_NAV,
   WORK_NAV,
+  HOME_LOGO,
+  ABOUT_LOGO,
+  WORK_LOGO,
 } from '../../config/general/navbar/navbar';
 
 function NavBar() {
@@ -51,7 +53,7 @@ function NavBar() {
           <Nav className='ml-auto' defaultActiveKey='#home'>
             <Nav.Item>
               <Nav.Link as={Link} to='/' onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: '2px' }} /> {HOME_NAV}
+                {HOME_LOGO} {HOME_NAV}
               </Nav.Link>
             </Nav.Item>
 
@@ -61,7 +63,7 @@ function NavBar() {
                 to='/about'
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: '2px' }} /> {ABOUT_NAV}
+                {ABOUT_LOGO} {ABOUT_NAV}
               </Nav.Link>
             </Nav.Item>
 
@@ -71,7 +73,7 @@ function NavBar() {
                 to='/project'
                 onClick={() => updateExpanded(false)}
               >
-                <AiFillBug style={{ marginBottom: '2px' }} /> {WORK_NAV}
+                {WORK_LOGO} {WORK_NAV}
               </Nav.Link>
             </Nav.Item>
           </Nav>

@@ -1,66 +1,25 @@
-import ANT from '../../config/Assets/Projects/ants.jpg';
-import BUGS from '../../config/Assets/Projects/bugs.jpg';
-import BED_BUGS from '../../config/Assets/Projects/bedBugs.jpg';
-import FLEAS from '../../config/Assets/Projects/fleas.jpg';
-import MOSQUITOES from '../../config/Assets/Projects/mosquitoes.jpg';
-import MOUSE from '../../config/Assets/Projects/mouse.jpg';
-import TERMITES from '../../config/Assets/Projects/termites.jpg';
-import TICKS from '../../config/Assets/Projects/ticks.jpg';
-import WASPS from '../../config/Assets/Projects/wasps.jpg';
+import IMAGE0 from '../../config/Assets/Projects/image0.jpg';
+import IMAGE1 from '../../config/Assets/Projects/image1.jpg';
+import IMAGE2 from '../../config/Assets/Projects/image2.jpg';
 
 export const PROJECTS = [
   {
-    image: ANT,
-    name: 'הדברת נמלים',
-    description: 'הדברת נמלים מכל סוג',
-    price: 'מחיר - ₪300',
+    image: IMAGE0,
+    name: 'תספורת קומפלט שתשנה לכם את הלוק',
+    description:
+      'לשיער + זקן - לגרום לשיער להיות מבריק יותר ומסודר יותר שכולם יקנאו',
+    price: 'מחיר - ₪60',
   },
   {
-    image: BUGS,
-    name: 'הדברת תקנים',
-    description: 'הדברת תקנים מכל סוג',
-    price: 'מחיר - ₪300',
+    image: IMAGE1,
+    name: 'תספורת בלבד,  תצאו עם שיער הכי מסודר שתוכלו לבקש',
+    description: 'לשיער חדש דנדש',
+    price: 'מחיר - ₪50',
   },
   {
-    image: FLEAS,
-    name: 'הדברת פרעושים',
-    description: 'הדברת פרעושים מכל סוג',
-    price: 'מחיר - ₪300',
-  },
-  {
-    image: WASPS,
-    name: 'הדברת צרעות',
-    description: 'הדברת צרעות מכל סוג',
-    price: 'מחיר - ₪300',
-  },
-  {
-    image: BED_BUGS,
-    name: 'הדברת פשפשי מיטה',
-    description: 'הדברת פשפשי מיטה מכל סוג',
-    price: 'מחיר - ₪300',
-  },
-  {
-    image: MOUSE,
-    name: 'הדברת מכרסמים',
-    description: 'הדברת מכרסמים מכל סוג',
-    price: 'מחיר - ₪300',
-  },
-  {
-    image: MOSQUITOES,
-    name: 'הדברת יתושים',
-    description: 'הדברת יתושים מכל סוג',
-    price: 'מחיר - ₪300',
-  },
-  {
-    image: TICKS,
-    name: 'הדברת קרציות',
-    description: 'הדברת קרציות מכל סוג',
-    price: 'מחיר - ₪300',
-  },
-  {
-    image: TERMITES,
-    name: 'הדברת טרמיטים',
-    description: 'הדברת טרמיטים מכל סוג',
-    price: 'מחיר - ₪300',
+    image: IMAGE2,
+    name: 'סידור זקן',
+    description: 'טיקי טאקה והזקן מסודר, סכין | מכונה | שעווה',
+    price: 'מחיר - ₪15',
   },
 ];
