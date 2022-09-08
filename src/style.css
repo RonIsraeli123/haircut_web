@@ -113,6 +113,7 @@ html {
     font-size: 1.4rem !important;
     background-color: rgb(0, 180, 114) !important;
   }
+  
   .navbar-nav .nav-item a::after {
     display: none !important;
   }

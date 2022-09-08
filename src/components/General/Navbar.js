@@ -5,7 +5,12 @@ import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
 import { AiOutlineHome, AiFillBug, AiOutlineUser } from 'react-icons/ai';
 
-import { BRAND, HOME_NAV, ABOUT_NAV, WORK_NAV } from '../config/navbar/navbar';
+import {
+  BRAND,
+  HOME_NAV,
+  ABOUT_NAV,
+  WORK_NAV,
+} from '../../config/general/navbar/navbar';
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);

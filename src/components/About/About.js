@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Aboutcard from './AboutCard';
-import Man from '../../Assets/man.jpeg';
+import Man from '../../config/Assets/man.jpeg';
 import { HEADER } from '../../config/aboutPage/about';
 
 function About() {

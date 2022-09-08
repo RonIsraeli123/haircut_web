@@ -1,12 +1,12 @@
-import ANT from '../../Assets/Projects/ants.jpg';
-import BUGS from '../../Assets/Projects/bugs.jpg';
-import BED_BUGS from '../../Assets/Projects/bedBugs.jpg';
-import FLEAS from '../../Assets/Projects/fleas.jpg';
-import MOSQUITOES from '../../Assets/Projects/mosquitoes.jpg';
-import MOUSE from '../../Assets/Projects/mouse.jpg';
-import TERMITES from '../../Assets/Projects/termites.jpg';
-import TICKS from '../../Assets/Projects/ticks.jpg';
-import WASPS from '../../Assets/Projects/wasps.jpg';
+import ANT from '../../config/Assets/Projects/ants.jpg';
+import BUGS from '../../config/Assets/Projects/bugs.jpg';
+import BED_BUGS from '../../config/Assets/Projects/bedBugs.jpg';
+import FLEAS from '../../config/Assets/Projects/fleas.jpg';
+import MOSQUITOES from '../../config/Assets/Projects/mosquitoes.jpg';
+import MOUSE from '../../config/Assets/Projects/mouse.jpg';
+import TERMITES from '../../config/Assets/Projects/termites.jpg';
+import TICKS from '../../config/Assets/Projects/ticks.jpg';
+import WASPS from '../../config/Assets/Projects/wasps.jpg';
 
 export const PROJECTS = [
   {

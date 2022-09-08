@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import SocialMedia from '../components/SocialMedia';
+import SocialMedia from './SocialMedia';
 
-import { DEVELOP_BY, COPYRIGHT } from '../config/footer/footer';
+import { DEVELOP_BY, COPYRIGHT } from '../../config/general/footer/footer';
 
 function Footer() {
   let date = new Date();
