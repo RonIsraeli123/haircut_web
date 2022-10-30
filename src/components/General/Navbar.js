@@ -9,9 +9,11 @@ import {
   HOME_NAV,
   ABOUT_NAV,
   WORK_NAV,
+  APPOINTMENT_NAV,
   HOME_LOGO,
   ABOUT_LOGO,
   WORK_LOGO,
+  APPOINTMENT_LOGO,
 } from '../../config/general/navbar/navbar';
 
 function NavBar() {
@@ -74,6 +76,15 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 {WORK_LOGO} {WORK_NAV}
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to='/login'
+                onClick={() => updateExpanded(false)}
+              >
+                {APPOINTMENT_LOGO} {APPOINTMENT_NAV}
               </Nav.Link>
             </Nav.Item>
           </Nav>

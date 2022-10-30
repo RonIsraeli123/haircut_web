@@ -9,6 +9,7 @@ import { TITLE, SUMTITLE, PARAGRAPH } from '../../config/homePage/main';
 import {
   CONTACT_HEADER,
   CONTACT_PARAGRAPH,
+  CONTACT_NOTE,
 } from '../../config/homePage/contact';
 
 function Home() {
@@ -48,6 +49,7 @@ function Home() {
             <Col md={12} className='home-about-social'>
               <h1>{CONTACT_HEADER}</h1>
               <p> {CONTACT_PARAGRAPH}</p>
+              <p>({CONTACT_NOTE})</p>
               <SocialMedia />
             </Col>
           </Row>
